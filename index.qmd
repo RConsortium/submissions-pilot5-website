@@ -2,10 +2,13 @@
 title: "Submissions WG Pilot 5"
 ---
 
-This is a Quarto website.
+## Introduction
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+Welcome to the R Consortium R Submissions Pilot 5 documentation portal. You will find key materials, discussion notes, and additional information related to this pilot. To learn more about the submissions working group, please visit rconsortium.github.io/submissions-wg/.
 
-```{r}
-1 + 1
-```
+## Objectives
+
+The objectives of the R Consortium R Submission Pilot 5 Project are:
+
+- Deliver a publicly accessible R-based Submission through the eCTD portal using [datasetjson](https://github.com/atorus-research/datasetjson).
+- Expand on the work done in [Submission Pilot 1](https://github.com/RConsortium/submissions-pilot1) and [Pilot 3](https://github.com/RConsortium/submissions-pilot3-adam), by now utilizing R to generate ADaM datasets.

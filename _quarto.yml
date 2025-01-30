@@ -1,17 +1,28 @@
 project:
   type: website
+  output-dir: docs
 
 website:
   title: "Submissions WG Pilot 5"
+  site-url: "https://rconsortium.github.io/submissions-pilot5-website"
+  repo-url: "https://github.com/RConsortium/submissions-pilot5-website"
+  repo-actions: [edit, issue]
   navbar:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - href: https://github.com/RConsortium/submissions-pilot5-datasetjson/discussions/3/
+        text: Minutes
+    right:
+      - icon: github
+        href: https://github.com/RConsortium/submissions-pilot5-website
+        aria-label: GitHub Site        
 
 format:
   html:
-    theme: cosmo
+    theme:
+      light: flatly
+      dark: darkly
     css: styles.css
     toc: true
 
