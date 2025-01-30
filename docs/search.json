@@ -14,10 +14,10 @@
     "text": "Welcome to the R Consortium R Submissions Pilot 5 documentation portal. You will find key materials, discussion notes, and additional information related to this pilot. To learn more about the submissions working group, please visit rconsortium.github.io/submissions-wg/."
   },
   {
-    "objectID": "index.html#objective",
-    "href": "index.html#objective",
+    "objectID": "index.html#objectives",
+    "href": "index.html#objectives",
     "title": "Submissions WG Pilot 5",
-    "section": "Objective",
-    "text": "Objective\nThe objectives of the R Consortium R Submission Pilot 5 Project are:\n\nDeliver a publicly accessible R-based Submission through the eCTD portal using datasetjson.\nExpand on the work done in Submission Pilot 1 and Pilot 3, by now utilizing R to generate ADaM datasets."
+    "section": "Objectives",
+    "text": "Objectives\nThe objectives of the R Consortium R Submission Pilot 5 Project are:\n\nDeliver a publicly accessible R-based Submission through the eCTD portal using datasetjson.\nExpand on the work done in Submission Pilot 1 and Pilot 3, by now utilizing R to generate ADaM datasets."
   }
 ]

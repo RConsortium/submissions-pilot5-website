@@ -4,7 +4,7 @@ title: "Submissions WG Pilot 5"
 
 ## Introduction
 
-Welcome to the R Consortium R Submissions Pilot 5 documentation portal. You will find key materials, discussion notes, and additional information related to this pilot. To learn more about the submissions working group, please visit rconsortium.github.io/submissions-wg/.
+Welcome to the R Consortium R Submissions Pilot 5 documentation portal. You will find key materials, discussion notes, and additional information related to this pilot. To learn more about the submissions working group, please visit [rconsortium.github.io/submissions-wg/](https://rconsortium.github.io/submissions-wg/).
 
 ## Objectives
 
