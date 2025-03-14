@@ -1,0 +1,43 @@
+---
+title: "JSON Viewer"
+format: 
+  html:
+    page-layout: full
+---
+
+This JSON Viewer is a [Shiny](https://shiny.posit.co/)-based solution originally developed for the 3rd [CDISC Dataset-JSON Viewer Hackathon](https://www.linkedin.com/pulse/results-from-cosa-dataset-json-viewer-hackathon-sam-hume-kgbge) for which it won an honorable mention. It allows you to interactively explore and analyze CDISC [Dataset-JSON](https://www.cdisc.org/standards/data-exchange/dataset-json) data. Credit goes to the [original developers](https://github.com/sbarcelo777/Dataset-JSON-hackathon?tab=readme-ov-file#-authors) of the application. The repo for the app can be found [here](https://github.com/sbarcelo777/Dataset-JSON-hackathon). 
+
+```{r}
+#| echo: FALSE
+#| message: FALSE
+
+library(htmltools)
+source("R/create_shinylive_url.R")
+# Replace with your desired repository owner and name
+owner <- "sbarcelo777"
+repo <- "Dataset-JSON-hackathon" 
+# Download and extract the repository to a temporary directory
+repo_path <- download_github_repo(owner, repo)
+# List files in the extracted repository (optional)
+if (FALSE){
+  if (!is.null(repo_path) && dir.exists(repo_path)) {
+    cat("Files in the repository:\n")
+    print(list.files(repo_path, recursive = TRUE))
+  }
+}
+shinylive_url <- url_encode_dir(repo_path, mode = "app")
+```
+
+It is embedded below with the help of [shinylive.io](https://shiny.posit.co/py/docs/shinylive.html). The app should load below otherwise, please click [here](`{r} shinylive_url`).
+
+```{r}
+#| echo: FALSE
+#| message: FALSE
+# 
+tags$iframe(
+  title = "JSON Viewer",
+  src = shinylive_url,
+  style = "width: 100%; height: 600px; border: none;",
+  allowfullscreen = FALSE
+)
+```
