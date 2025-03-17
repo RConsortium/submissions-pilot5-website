@@ -28,7 +28,7 @@ if (FALSE){
 shinylive_url <- url_encode_dir(repo_path, mode = "app", exclude = "rsconnect/|html|svg")
 ```
 
-It is embedded below with the help of [shinylive.io](https://shiny.posit.co/py/docs/shinylive.html). The app should load below otherwise, please click [here](`{r} shinylive_url`).
+It is embedded below with the help of [shinylive.io](https://shiny.posit.co/py/docs/shinylive.html). The app should load below; otherwise, please click [here](`{r} shinylive_url`).
 
 ```{r}
 #| echo: FALSE
