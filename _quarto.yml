@@ -13,6 +13,8 @@ website:
         text: Home
       - href: https://github.com/RConsortium/submissions-pilot5-datasetjson/discussions/3/
         text: Minutes
+      - href: viewer.qmd
+        text: JSON Viewer
     right:
       - icon: github
         href: https://github.com/RConsortium/submissions-pilot5-website
