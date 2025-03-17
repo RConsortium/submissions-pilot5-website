@@ -25,6 +25,6 @@
     "href": "viewer.html",
     "title": "JSON Viewer",
     "section": "",
-    "text": "This JSON Viewer is a Shiny-based solution originally developed for the 3rd CDISC Dataset-JSON Viewer Hackathon for which it won an honorable mention. It allows you to interactively explore and analyze CDISC Dataset-JSON data. Credit goes to the original developers of the application. The repo for the app can be found here.\nIt is embedded below with the help of shinylive.io. The app should load below otherwise, please click here."
+    "text": "This JSON Viewer is a Shiny-based solution originally developed for the 3rd CDISC Dataset-JSON Viewer Hackathon for which it won an honorable mention. It allows you to interactively explore and analyze CDISC Dataset-JSON data. Credit goes to the original developers of the application. The repo for the app can be found here.\nIt is embedded below with the help of shinylive.io. The app should load below; otherwise, please click here."
   }
 ]
