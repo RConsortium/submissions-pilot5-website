@@ -5,11 +5,12 @@ format:
     page-layout: full
 ---
 
-This JSON Viewer is a [Shiny](https://shiny.posit.co/)-based solution originally developed for the 3rd [CDISC Dataset-JSON Viewer Hackathon](https://www.linkedin.com/pulse/results-from-cosa-dataset-json-viewer-hackathon-sam-hume-kgbge) for which it won an honorable mention. It allows you to interactively explore and analyze CDISC [Dataset-JSON](https://www.cdisc.org/standards/data-exchange/dataset-json) data. Credit goes to the [original developers](https://github.com/sbarcelo777/Dataset-JSON-hackathon?tab=readme-ov-file#-authors) of the application. The repo for the app can be found [here](https://github.com/sbarcelo777/Dataset-JSON-hackathon). 
+This JSON Viewer is a [Shiny](https://shiny.posit.co/)-based solution originally developed for the 3rd [CDISC Dataset-JSON Viewer Hackathon](https://www.linkedin.com/pulse/results-from-cosa-dataset-json-viewer-hackathon-sam-hume-kgbge) for which it won an honorable mention. It allows you to interactively explore and analyze CDISC [Dataset-JSON](https://www.cdisc.org/standards/data-exchange/dataset-json) data. Credit goes to the [original developers](https://github.com/sbarcelo777/Dataset-JSON-hackathon?tab=readme-ov-file#-authors) of the application. The specific application below is based on a fork of the original application with selected example JSON data files pre-loaded in the user interface for convenience. The repository for this version of the app can be found [here](https://github.com/rpodcast/Dataset-JSON-hackathon). 
 
 ```{r}
 #| echo: FALSE
 #| message: FALSE
+#| eval: false
 
 library(htmltools)
 source("R/create_shinylive_url.R")
@@ -28,15 +29,15 @@ if (FALSE){
 shinylive_url <- url_encode_dir(repo_path, mode = "app", exclude = "rsconnect/|html|svg")
 ```
 
-It is embedded below with the help of [shinylive.io](https://shiny.posit.co/py/docs/shinylive.html). The app should load below; otherwise, please click [here](`{r} shinylive_url`).
+It is embedded below with the help of [shinylive.io](https://shiny.posit.co/py/docs/shinylive.html). The app should load below; otherwise, please click [here](https://rpodcast.github.io/Dataset-JSON-hackathon/).
 
 ```{r}
 #| echo: FALSE
 #| message: FALSE
 # 
-tags$iframe(
+htmltools::tags$iframe(
   title = "JSON Viewer",
-  src = shinylive_url,
+  src = "https://rpodcast.github.io/Dataset-JSON-hackathon/",
   style = "width: 100%; height: 600px; border: none;",
   allowfullscreen = FALSE
 )
