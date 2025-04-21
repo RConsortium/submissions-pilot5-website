@@ -1,0 +1,37 @@
+[
+  {
+    "objectID": "viewer.html",
+    "href": "viewer.html",
+    "title": "JSON Viewer",
+    "section": "",
+    "text": "This JSON Viewer is a Shiny-based solution originally developed for the 3rd CDISC Dataset-JSON Viewer Hackathon for which it won an honorable mention. It allows you to interactively explore and analyze CDISC Dataset-JSON data. Credit goes to the original developers of the application. The specific application below is based on a fork of the original application with selected example JSON data files pre-loaded in the user interface for convenience. The repository for this version of the app can be found here.\nIt is embedded below with the help of shinylive.io. The app should load below; otherwise, please click here."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Submissions WG Pilot 5",
+    "section": "",
+    "text": "Welcome to the R Consortium R Submissions Pilot 5 documentation portal. You will find key materials, discussion notes, and additional information related to this pilot. To learn more about the submissions working group, please visit rconsortium.github.io/submissions-wg/."
+  },
+  {
+    "objectID": "index.html#introduction",
+    "href": "index.html#introduction",
+    "title": "Submissions WG Pilot 5",
+    "section": "",
+    "text": "Welcome to the R Consortium R Submissions Pilot 5 documentation portal. You will find key materials, discussion notes, and additional information related to this pilot. To learn more about the submissions working group, please visit rconsortium.github.io/submissions-wg/."
+  },
+  {
+    "objectID": "index.html#objectives",
+    "href": "index.html#objectives",
+    "title": "Submissions WG Pilot 5",
+    "section": "Objectives",
+    "text": "Objectives\nThe objectives of the R Consortium R Submission Pilot 5 Project are:\n\nDeliver a publicly accessible R-based Submission through the eCTD portal using datasetjson.\nExpand on the work done in Submission Pilot 1 and Pilot 3, by now utilizing R to generate ADaM datasets."
+  },
+  {
+    "objectID": "json-viewer.html",
+    "href": "json-viewer.html",
+    "title": "Dataset JSON Viewer",
+    "section": "",
+    "text": "In this page you will find the Dataset-JSON Viewer Shiny application authored by Sebastià Barceló & Hugo Signol. This is a powerful and user-friendly Shiny application for exploring and analyzing JSON data sets with interactive features and comprehensive data visualization capabilities. For additional details please refer to the usage guide from the project’s GitHub repository.\n\n\n\n\n\n\nNote\n\n\n\nThis is a copy of the application powered by {shinylive} and WebAssembly. No modifications to the application code base have been made."
+  }
+]
