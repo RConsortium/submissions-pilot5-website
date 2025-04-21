@@ -1,8 +1,6 @@
 ---
 title: "Dataset JSON Viewer"
 format: html
-filters:
-  - shinylive
 ---
 
 In this page you will find the Dataset-JSON Viewer Shiny application authored by Sebastià Barceló & Hugo Signol. This is a powerful and user-friendly Shiny application for exploring and analyzing JSON data sets with interactive features and comprehensive data visualization capabilities. For additional details please refer to the [usage guide](https://github.com/sbarcelo777/Dataset-JSON-hackathon/blob/master/README.md#-user-guide) from the project's [GitHub repository](https://github.com/sbarcelo777/Dataset-JSON-hackathon/).
