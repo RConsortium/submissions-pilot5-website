@@ -1,16 +1,18 @@
+name: Quarto Website Publish
+
 on:
-  workflow_dispatch:
   push:
+    # Triggers the workflow on push or pull request events to main branch
     branches:
       - main
     paths-ignore:
       - '\.devcontainer/**'
       - '\.github/**'
       - 'README.md' 
-
-  name: Quarto Website Publish
-
-  jobs:
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+  
+jobs:
   build-deploy:
     runs-on: ubuntu-latest
     permissions:
