@@ -8,7 +8,7 @@ on:
       - '\.github/**'
       - 'README.md' 
 
-  name: Quarto Publish
+  name: Quarto Website Publish
 
   jobs:
   build-deploy:
@@ -37,4 +37,3 @@ on:
           target: gh-pages
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
