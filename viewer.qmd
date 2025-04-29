@@ -5,9 +5,11 @@ format:
     page-layout: full
 ---
 
-In this page you will find the Dataset-JSON Viewer Shiny application authored by Sebastià Barceló & Hugo Signol, originally developed for the 3rd [CDISC Dataset-JSON Viewer Hackathon](https://www.linkedin.com/pulse/results-from-cosa-dataset-json-viewer-hackathon-sam-hume-kgbge) for which it won an honorable mention. This is a powerful and user-friendly Shiny application for exploring and analyzing JSON data sets with interactive features and comprehensive data visualization capabilities. For additional details, please refer to the [usage guide](https://github.com/sbarcelo777/Dataset-JSON-hackathon/blob/master/README.md#-user-guide) from the project's [GitHub repository](https://github.com/sbarcelo777/Dataset-JSON-hackathon/).
+
+In this page you will find the [Dataset-JSON](https://www.cdisc.org/standards/data-exchange/dataset-json) Viewer [Shiny](https://shiny.posit.co/) application authored by Sebastià Barceló & Hugo Signol, originally developed for the 3rd [CDISC Dataset-JSON Viewer Hackathon](https://www.linkedin.com/pulse/results-from-cosa-dataset-json-viewer-hackathon-sam-hume-kgbge) for which it won an honorable mention. This is a powerful and user-friendly Shiny application for exploring and analyzing JSON data sets with interactive features and comprehensive data visualization capabilities. For additional details, please refer to the [usage guide](https://github.com/sbarcelo777/Dataset-JSON-hackathon/blob/master/README.md#-user-guide) from the project's [GitHub repository](https://github.com/sbarcelo777/Dataset-JSON-hackathon/).
 
 The specific application below is based on a fork of the original application with selected example JSON data files pre-loaded in the user interface for convenience. The repository for this version of the app can be found [here](https://github.com/rpodcast/Dataset-JSON-hackathon).
+
 
 ```{r}
 #| echo: FALSE
@@ -32,6 +34,7 @@ shinylive_url <- url_encode_dir(repo_path, mode = "app", exclude = "rsconnect/|h
 ```
 
 It is embedded below with the help of [{shinylive}](https://shiny.posit.co/py/docs/shinylive.html) and WebAssembly. The app should load below; otherwise, please click [here](https://rpodcast.github.io/Dataset-JSON-hackathon/).
+
 
 ```{r}
 #| echo: FALSE
