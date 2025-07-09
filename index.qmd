@@ -3,6 +3,7 @@ title: "Submissions WG Pilot 5"
 ---
 
 ## Introduction
+<a href="https://rconsortium.github.io/submissions-pilot5-website/"><img src="images/pilot%205@2x.png" align="right" height="120" alt="pilot 5 website" /></a>
 
 Welcome to the R Consortium R Submissions Pilot 5 documentation portal. You will find key materials, discussion notes, and additional information related to this pilot. To learn more about the submissions working group, please visit [rconsortium.github.io/submissions-wg/](https://rconsortium.github.io/submissions-wg/).
 
@@ -10,5 +11,6 @@ Welcome to the R Consortium R Submissions Pilot 5 documentation portal. You will
 
 The objectives of the R Consortium R Submission Pilot 5 Project are:
 
-- Deliver a publicly accessible R-based Submission through the eCTD portal using [datasetjson](https://github.com/atorus-research/datasetjson).
-- Expand on the work done in [Submission Pilot 1](https://github.com/RConsortium/submissions-pilot1) and [Pilot 3](https://github.com/RConsortium/submissions-pilot3-adam), by now utilizing R to generate ADaM datasets.
+-   Deliver a publicly accessible R-based Submission through the eCTD portal using [datasetjson](https://github.com/atorus-research/datasetjson).
+-   Expand on the work done in [Submission Pilot 1](https://github.com/RConsortium/submissions-pilot1) and [Pilot 3](https://github.com/RConsortium/submissions-pilot3-adam), by now utilizing R to generate ADaM datasets.
+
