@@ -3,7 +3,7 @@ title: "Submissions WG Pilot 5"
 ---
 
 ## Introduction
-<a href="https://rconsortium.github.io/submissions-pilot5-website/"><img src="images/pilot%205@2x.png" align="right" height="120" alt="pilot 5 website" /></a>
+<a href="https://rconsortium.github.io/submissions-pilot5-website/"><img src="images/pilot%205@2x.png" align="right" height="138" alt="pilot 5 website" /></a>
 
 Welcome to the R Consortium R Submissions Pilot 5 documentation portal. You will find key materials, discussion notes, and additional information related to this pilot. To learn more about the submissions working group, please visit [rconsortium.github.io/submissions-wg/](https://rconsortium.github.io/submissions-wg/).
 
