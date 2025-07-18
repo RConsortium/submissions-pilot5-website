@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://rconsortium.github.io/submissions-pilot5-website/viewer.html</loc>
-    <lastmod>2025-07-09T14:21:11.861Z</lastmod>
+    <loc>https://rconsortium.github.io/submissions-pilot5-website/json-viewer.html</loc>
+    <lastmod>2025-07-18T18:32:49.824Z</lastmod>
   </url>
   <url>
     <loc>https://rconsortium.github.io/submissions-pilot5-website/index.html</loc>
-    <lastmod>2025-07-09T14:21:11.861Z</lastmod>
+    <lastmod>2025-07-18T18:32:49.824Z</lastmod>
   </url>
   <url>
-    <loc>https://rconsortium.github.io/submissions-pilot5-website/json-viewer.html</loc>
-    <lastmod>2025-07-09T14:21:11.861Z</lastmod>
+    <loc>https://rconsortium.github.io/submissions-pilot5-website/viewer.html</loc>
+    <lastmod>2025-07-18T18:32:49.824Z</lastmod>
   </url>
 </urlset>
