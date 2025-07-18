@@ -18,7 +18,8 @@ website:
     right:
       - icon: github
         href: https://github.com/RConsortium/submissions-pilot5-website
-        aria-label: GitHub Site        
+        aria-label: GitHub Site     
+  favicon: images/favicon.ico
 
 format:
   html:
