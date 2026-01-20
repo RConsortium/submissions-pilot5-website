@@ -14,3 +14,7 @@ The objectives of the R Consortium R Submission Pilot 5 Project are:
 -   Deliver a publicly accessible R-based Submission through the eCTD portal using [datasetjson](https://github.com/atorus-research/datasetjson).
 -   Expand on the work done in [Submission Pilot 1](https://github.com/RConsortium/submissions-pilot1) and [Pilot 3](https://github.com/RConsortium/submissions-pilot3-adam), by now utilizing R to generate ADaM datasets.
 
+
+## Previous work
+
+This pilot also expands on [previous work](https://phuse.s3.eu-central-1.amazonaws.com/Deliverables/Optimizing+the+Use+of+Data+Standards/WP-88+Dataset-JSON+Report.pdf) from the PHUSE Optimizing the Use of Data Standards Working Group.
