@@ -28,6 +28,13 @@
     "text": "Objectives\nThe objectives of the R Consortium R Submission Pilot 5 Project are:\n\nDeliver a publicly accessible R-based Submission through the eCTD portal using datasetjson.\nExpand on the work done in Submission Pilot 1 and Pilot 3, by now utilizing R to generate ADaM datasets."
   },
   {
+    "objectID": "index.html#previous-work",
+    "href": "index.html#previous-work",
+    "title": "Submissions WG Pilot 5",
+    "section": "Previous work",
+    "text": "Previous work\nThis pilot also expands on previous work from the PHUSE Optimizing the Use of Data Standards Working Group."
+  },
+  {
     "objectID": "viewer.html",
     "href": "viewer.html",
     "title": "JSON Viewer",
